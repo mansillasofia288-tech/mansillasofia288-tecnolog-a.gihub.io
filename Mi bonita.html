@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://127.0.0.1:5500/E.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Mi bonita</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #fff7fb;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #d45db5;
+    }
+
+    .carta {
+        width: 90%;
+        max-width: 500px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #ffbde6;
+    }
+
+    .playlist {
+        margin: 25px auto;
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .ramo img {
+        width: 130px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(255, 150, 200, 0.4);
+    }
+
+    .botones {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 25px;
+    }
+
+    button {
+        padding: 12px 22px;
+        font-size: 18px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    #si {
+        background: #ff8ad8;
+        color: white;
+    }
+
+    #si:hover {
+        background: #ff5ec5;
+    }
+
+    #no {
+        background: #cfcfcf;
+    }
+</style>
+</head>
+<body>
+
+<h1>Para ti 💗</h1>
+
+<div class="ramo">
+    <img src="./Mi bonita_files/4ce632ced18ac4141f3774a007d4aa2f.jpg" alt="ramo">
+</div>
+
+<div class="carta">
+    <h2>lee esto 💌</h2>
+    <h4>
+        Hola bonita: antes de leer esto, pon alguna canción de la playlist de abajo (no se vale bajar tanto en la página hasta que termines de leer).<br><br>
+        Siendo honesta llevaba tiempo queriendo hacer esto. Realmente lo había pensado desde que te conocí como lo hago ahora, eres
+         la primera persona que me hace sentir tanto en tan poco tiempo, tan así que quiero
+         darte una parte de mi vida para que sea tuya, darte todo mi cariño, amor,  adoración y 
+         tiempo, eres una luz en mi vida, con quien quiero hablar cuando no quiero hacerlo con nadie, con quien quiero ver mil
+          películas y disfrutar cada una como si fuera la primera, a quien quiero contarle mi día todos los días, a quien quiero adorar con el alma, bueno, eso lo hice desde que te ví.
+        Mi niña linda, eres una persona tan pero tan linda que aún si te escribiera una biblia en verso no bastaria para explicarlo
+        eres la luz en cada lugar al que vas, la mejor en todo lo que haces, alguien tan pero tan real que a veces pienso que eres un sueño 
+        o que no te merezco, pero de ser así trabajaré para ser quien merezca verte, hablarte, soñarte y tenerte en mi vida, aunque tú te has vuelto mi vida
+        te quiero, y te lo digo con el corazón en la mano y el alma expuesta porque sé que tú no vas a disparar; podrías meter tu mano en 
+        mi pecho, sostener mi corazón y sentirás que cada latido de este es por ti y para ti, siento que estoy loca, por querer tanto a alguien
+        de quien no conozco ni su voz, pero conozco tan bien lo que hace, que le gusta, que ama, que se escondió en un baño y no podía salir, pero si estoy
+        loca y es por ti, sé que es por la persona correcta. Te quiero y te adoro con todo mi ser Eli, de verdad lo hago tanto que ya no puedo estar sin ti, 
+        en mi mente y corazón solo existes tú, creo que ya supones a donde va esto, verdad? te adoro bonita.
+    </h4>
+</div>
+
+<div class="playlist">
+    <h2>escucha esto, ahora ya entiendes el 150? 🎶</h2>
+
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="./Mi bonita_files/3TDe4JZu8Va18CIOmzeaD3.html" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+</div>
+
+<h2>Bueno… ahora sí…</h2>
+<h1 style="color:#d75dc4;">¿Me harías el honor de ser tu novia? </h1>
+
+<div class="botones">
+    <button id="si" onclick="alert(&#39;Gracias por esta oportunidad mi vida💗&#39;)">Sí</button>
+    <button id="no" onmouseover="moverBoton()" style="position: absolute; left: 1197.98px; top: 675.157px;">No</button>
+</div>
+
+<script>
+function moverBoton() {
+    const boton = document.getElementById("no");
+
+    let nuevaX = Math.random() * (window.innerWidth - 120);
+    let nuevaY = Math.random() * (window.innerHeight - 50);
+
+    boton.style.position = "absolute";
+    boton.style.left = `${nuevaX}px`;
+    boton.style.top = `${nuevaY}px`;
+}
+</script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+   </body></html>
